@@ -273,7 +273,7 @@ from google.cloud import language_v1
 from google.cloud.language import enums
 from google.cloud.language import types
 
-#client = pymongo.MongoClient("ority")
+#client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0-4bghh.mongodb.net/test?retryWrites=true&w=majority")
 #db = client.test
 #collection = db['recipes']
 

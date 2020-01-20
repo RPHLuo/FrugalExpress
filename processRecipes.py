@@ -1,7 +1,7 @@
 import sys,json, pymongo
 import operator
 
-client = pymongo.MongoClient("")
+client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0-4bghh.mongodb.net/test?retryWrites=true&w=majority")
 db = client.test
 recipe_collection = db['recipes']
 grocery_collection = db['groceries']
